@@ -15,7 +15,7 @@ Ping command additionally provides information about a network performance, a ro
 
 What is the name of the most common tool for finding open ports on a target?
 Ans:nmap
-[Nmap (Network Mapper) is a free and open-source tool for network discovery and security auditing. Sometimes can not find out open ports. We can try #nmap -Pn (IP).]
+[Nmap (Network Mapper) is a free and open-source tool for network discovery and security auditing. Sometimes can not find out open ports. We can try $nmap -Pn (IP).]
 
 What service do we identify on port 23/tcp during our scans?
 Ans:telnet
