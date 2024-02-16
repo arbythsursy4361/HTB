@@ -3,4 +3,31 @@ Ans: server message block
 
 What port does SMB use to operate at?
 Ans:445
-[You can use $nmap]
+[You can use $nmap (IP) to find out SMB port. That microsoft-ds server name is corresponded port.]
+
+What is the service name for port 445 that came up in our Nmap scan?
+Ans:microsoft-ds
+
+We will try to exploit SMB service in this machine and we can use already available tool in Kali Linux i.e. smbclient for this purpose.
+
+What is the 'flag' or 'switch' that we can use with the smbclient utility to 'list' the available shares on Dancing?
+Ans:-L
+[$smbclient -h will show all of the parameters. The "-L" is list=HOST.]
+
+How many shares are there on Dancing?
+Ans:4
+[$smbclient -L (IP) will show how many shares on Dancing.]
+
+What is the name of the share we are able to access in the end with a blank password?
+Ans:workshares
+[$ symbol does not show in sharename.]
+
+Now we try to connect each share and it can be noticed that only WorkShares is connected without providing any password.
+$smbclient \\\\(IP)\\(sharename) can try to connet.
+
+What is the command we can use within the SMB shell to download the files we find?
+Ans:get
+[help command show that the get commend is available.]
+-----
+The last step is find flag.txt. Thus, we use $cd go through all of the folder.
+Then, using $get or $cat to take or show the flag.txt.
