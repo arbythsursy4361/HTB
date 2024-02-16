@@ -1,0 +1,6 @@
+What does the 3-letter acronym SMB stand for?
+Ans: server message block
+
+What port does SMB use to operate at?
+Ans:445
+[You can use $nmap]
