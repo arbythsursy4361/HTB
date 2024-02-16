@@ -2,7 +2,7 @@
 ---
 In the first module, you will gain essential skills in the world of cybersecurity pen-testing.
 
-You'll start by learning how to connect to various services, such as FTP, SMB, Telnet, Rsync, and RDP anonymously.
+You'll start by learning how to connect to various services, such as FTP, SMB, Telnet.
 
 Next, you'll discover the power of Nmap, a valuable tool for identifying open ports on target systems, allowing you to assess their vulnerabilities.
 
