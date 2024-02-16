@@ -1,0 +1,2 @@
+Using $nmap -p- (IP) to scan all ports.
+-p- option can be used to check all ports and if takes so much time, you can use provided command "nmap -p- -min-rate 5000 (IP)"
