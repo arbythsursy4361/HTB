@@ -10,4 +10,18 @@ Ans:openvpn
 
 What tool do we use to test our connection to the target with an ICMP echo request?
 Ans:ping
-[Ping (Packet Internet Groper)]
+[Ping (Packet Internet Groper) which uses ICMP (Internet Control Message Protocol) to reports errors and provides information related to IP packet processing.
+Ping command additionally provides information about a network performance, a round-trip time, a time to send an ICMP request packet and receive an ICMP reply packet.]
+
+What is the name of the most common tool for finding open ports on a target?
+Ans:nmap
+[Nmap (Network Mapper) is a free and open-source tool for network discovery and security auditing. Sometimes can not find out open ports. We can try #nmap -Pn (IP).]
+
+What service do we identify on port 23/tcp during our scans?
+Ans:telnet
+[TELNET (TErminaL NETwork) is a type of protocol that enables one computer to connect to local computer.
+It follows TCP/IP networking protocol for creating remote sessions. Telnet is not a secure protocol and is unencrypted.]
+
+Using telnet tool enter to that machine #telnet (IP).
+Therefore, you will need to input root.
+Finally, you will input $ls to find out all documents, and using $cat tool to see the content of flag.txt.
