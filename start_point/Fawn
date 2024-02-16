@@ -36,7 +36,7 @@ Ans:ls
 
 What is the command used to download the file we found on the FTP server?
 Ans:get
-
+-----
 Finally, you can input exit to leave ftp command.
 Then, using #ls to observe the download file i.e. "flag.txt".
 the result which using #cat command to get the content of flag.txt.
