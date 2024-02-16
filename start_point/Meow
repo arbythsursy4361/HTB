@@ -21,7 +21,7 @@ What service do we identify on port 23/tcp during our scans?
 Ans:telnet
 [TELNET (TErminaL NETwork) is a type of protocol that enables one computer to connect to local computer.
 It follows TCP/IP networking protocol for creating remote sessions. Telnet is not a secure protocol and is unencrypted.]
-
+-----
 Using telnet tool enter to that machine #telnet (IP).
 Therefore, you need to login in Meow machine. (username is root typically.)
 Finally, you will input $ls to find out all documents, and using $cat tool to see the content of flag.txt.
