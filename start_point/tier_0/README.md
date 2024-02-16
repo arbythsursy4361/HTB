@@ -1,4 +1,4 @@
-#Learning Outcomes
+Learning Outcomes
 ---
 In the first module, you will gain essential skills in the world of cybersecurity pen-testing.
 You'll start by learning how to connect to various services, such as FTP, SMB, Telnet.
