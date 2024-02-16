@@ -1,6 +1,49 @@
-Using $nmap -p- -sV (IP) to scan all ports.
+Which TCP port is open on the machine?
+Ans:6379
+[Using $nmap -p- -sV (IP) to scan all ports.
 -p- option can be used to check all ports and if takes so much time.
 --min-rate <number>: Send packets no slower than <number> per second.
 -sV: Probe open ports to determine service/version info
-Therefore, you can use provided command "nmap -p- --min-rate 5000 -sV (IP)"
+Therefore, you can use provided command "nmap -p- --min-rate 5000 -sV (IP)"]
 
+Which service is running on the port that is open on the machine?
+Ans:redis
+[Redis (REmote DIctionary Server) is an open-source advanced NoSQL key-value data store used as a database, cache, and message broker.
+The data is stored in a dictionary format having key-value pairs.
+The database is stored in the server’s RAM (in-memory) to enable fast data access.]
+
+What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
+Ans:In-memory Database
+
+Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.
+Ans:redis-cli
+
+Which flag is used with the Redis command-line utility to specify the hostname?
+Ans:-h
+[-h <hostname> option is Server hostname (default: 127.0.0.1).]
+
+Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?
+Ans:info
+
+Next, connecting to the redis server using mentioned command "$redis-cli -h (IP)".
+
+What is the version of the Redis server being used on the target machine?
+Ans:5.0.7
+[See info.]
+
+Scroll down to notice "#Keyspace" section, which provides statistics on the main dictionary of each database.
+We can use select command followed by the index number of database as mentioned in Keyspace section to choose database.
+
+Which command is used to select the desired database in Redis?
+Ans:select
+
+After selecting the database, we can list all the keys present in the database using the command "keys *".
+
+How many keys are present inside the database with index 0?
+Ans:4
+
+Which command is used to obtain all the keys in a database?
+Ans: keys *
+
+We will find out that there is a key called by "flag".
+Therefore, we can use get command to get content.
