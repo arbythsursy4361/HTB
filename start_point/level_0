@@ -1,1 +1,13 @@
+The acronym VM stand for?
+Ans:virtual machine
 
+What tool do we use to interact with the operating system? 
+Ans:terminal
+
+What service do we use to form our VPN connection into HTB labs?
+Ans:openvpn
+[OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections.]
+
+What tool do we use to test our connection to the target with an ICMP echo request?
+Ans:ping
+[Ping (Packet Internet Groper)]
