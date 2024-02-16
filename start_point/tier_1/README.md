@@ -1,4 +1,4 @@
-#Learning Outcomes
+Learning Outcomes
 ---
 In the second module, you'll delve deeper into the world of cybersecurity pen-testing, focusing on web exploitation techniques suitable for beginners. 
 You'll discover the basics of SQL injection, Server Side Template Injection, Remote File Inclusion, and gain a grasp of how to use Web/Reverse Shells effectively. 
