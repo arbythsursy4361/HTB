@@ -3,7 +3,7 @@ Ans:file transfer protocal
 
 Which port does the FTP service listen on usually?
 Ans:21
-[You can input #nmap -Pn (IP), then you will find out all ports.]
+[You can input $nmap -Pn (IP), then you will find out all ports.]
 
 What acronym is used for the secure version of FTP?
 Ans:sftp
@@ -38,5 +38,5 @@ What is the command used to download the file we found on the FTP server?
 Ans:get
 -----
 Finally, you can input exit to leave ftp command.
-Then, using #ls to observe the download file i.e. "flag.txt".
-the result which using #cat command to get the content of flag.txt.
+Then, using $ls to observe the download file i.e. "flag.txt".
+the result which using $cat command to get the content of flag.txt.
