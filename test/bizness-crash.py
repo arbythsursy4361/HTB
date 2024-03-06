@@ -24,7 +24,7 @@ def getCryptedBytes(hash_type, salt, value):
        raise Exception(f"Error while computing hash of type {hash_type}: {e}")
 hash_type = "SHA1"
 salt = "d"
-search = "$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I="
+search = "$SHA1$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I=" # /opt/ofbiz/runtime/data/derby/ofbiz/seg0/c54d0.dat
 wordlist = '/usr/share/wordlists/rockyou.txt'
 with open(wordlist,'r',encoding='latin-1') as password_list:
    for password in password_list:
